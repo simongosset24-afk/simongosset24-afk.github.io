@@ -7,10 +7,10 @@ export const Route = createFileRoute('/')({
 
 const features = [
   {
-    number: '< 2',
+    number: '1,6',
     unit: 'km',
     title: 'De la Plage',
-    desc: 'Atteignez les plages dorées de la côte Pacifique en quelques minutes à pied ou en voiture.',
+    desc: 'Atteignez les plages de la côte Caraïbe en quelques minutes à pied, en vélo ou en voiture.',
     accent: '#4A8FA3',
   },
   {
@@ -37,14 +37,13 @@ const features = [
 ]
 
 const amenities = [
-  'WiFi Haut Débit',
+  'WiFi Starlink',
   'Climatisation',
   'Cuisine Équipée',
-  'Terrasse Privée',
-  'Parking Gratuit',
+  'Terrasses Privées',
+  'Parking Privé',
   'Draps & Serviettes',
   'Machine à Laver',
-  'Barbecue',
 ]
 
 const testimonials = [
@@ -66,9 +65,9 @@ const testimonials = [
 ]
 
 const proximities = [
-  { label: 'Plage', dist: '1.8 km', type: 'beach' },
+  { label: 'Plage', dist: '1.6 km', type: 'beach' },
   { label: 'Centre-ville', dist: '2.5 km', type: 'town' },
-  { label: 'Parc National', dist: '3.2 km', type: 'nature' },
+  { label: 'Parc National Cahuita', dist: '3.2 km', type: 'nature' },
   { label: 'Aéroport Quepos', dist: '6 km', type: 'airport' },
 ]
 
@@ -151,12 +150,12 @@ function CasaCalypso() {
             <span className="h1-outline">Calypso</span>
           </h1>
           <p className="hero-sub">
-            Un refuge tropical sur la côte Pacifique,<br />
-            entre jungle luxuriante et eaux cristallines
+            Un refuge tropical sur la côte Caraïbe,<br />
+            entre jungle luxuriante et plages sauvages
           </p>
           <div className="hero-ctas">
             <a
-              href="https://www.airbnb.com"
+              href="http://airbnb.fr/h/casacalypso-puertoviejo"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-terra"
@@ -169,7 +168,7 @@ function CasaCalypso() {
           </div>
           <div className="hero-stats">
             <div className="h-stat">
-              <span className="h-stat-n">2 km</span>
+              <span className="h-stat-n">1,6 km</span>
               <span className="h-stat-l">de la plage</span>
             </div>
             <div className="h-sep" />
@@ -241,7 +240,7 @@ function CasaCalypso() {
 
         <div className="gal-grid">
           {[
-            { label: 'Salon & Terrasse', cls: 'g1' },
+            { label: 'La Maison', cls: 'g1', image : '/public/facade.jpg' },
             { label: 'Chambre Principale', cls: 'g2' },
             { label: 'Cuisine Équipée', cls: 'g3' },
             { label: 'Jardin Tropical', cls: 'g4' },
