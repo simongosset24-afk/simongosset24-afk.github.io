@@ -271,15 +271,15 @@ function CasaCalypso() {
             </p>
             <p className="about-p">
               Les deux chambres, chacune avec deux lits doubles, offrent
-              suffisamment d'espace pour quatre personnes. La terrasse et le
+              suffisamment d'espace pour quatre personnes. Les terrasses et le
               jardin tropical deviennent rapidement votre salon à ciel ouvert.
             </p>
             <div className="about-facts">
               {[
-                ['Superficie', '~120 m²'],
+                ['Superficie', '~100 m²'],
                 ['Chambres', '2 (4 lits doubles)'],
-                ['Localisation', 'Côte Pacifique, CR'],
-                ['Distance plage', '~1.8 km'],
+                ['Localisation', 'Côte Caraïbe, CR'],
+                ['Distance plage', '~1.6 km'],
               ].map(([lbl, val]) => (
                 <div key={lbl} className="fact">
                   <span className="fact-lbl">{lbl}</span>
@@ -301,7 +301,7 @@ function CasaCalypso() {
                 <circle cx="110" cy="90" r="10" fill="rgba(191,105,80,0.25)" />
               </svg>
               <p className="map-place">Manuel Antonio, Costa Rica</p>
-              <p className="map-coords">Côte Pacifique · 9°24'N 84°08'O</p>
+              <p className="map-coords">Côte Caraïbe · 9°24'N 84°08'O</p>
             </div>
             <div className="prox-list">
               {proximities.map(({ label, dist, type }) => (
@@ -357,7 +357,7 @@ function CasaCalypso() {
           </p>
           <div className="book-ctas">
             <a
-              href="https://www.airbnb.com"
+              href="http://airbnb.fr/h/casacalypso-puertoviejo"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-terra btn-lg"
