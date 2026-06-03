@@ -67,8 +67,8 @@ const testimonials = [
 const proximities = [
   { label: 'Plage', dist: '1.6 km', type: 'beach' },
   { label: 'Centre-ville', dist: '2.5 km', type: 'town' },
-  { label: 'Parc National Cahuita', dist: '3.2 km', type: 'nature' },
-  { label: 'Aéroport Quepos', dist: '6 km', type: 'airport' },
+  { label: 'Parc National Cahuita', dist: '10 km', type: 'nature' },
+  { label: 'Aéroport San Jose', dist: '4h', type: 'airport' },
 ]
 
 function StarRow() {
