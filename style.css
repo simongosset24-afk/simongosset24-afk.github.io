@@ -806,3 +806,62 @@ body {
   .cc-footer { padding: 3rem 1.5rem 2rem; }
   .ft-links { gap: 1.5rem; }
 }
+
+/* ===== Réseaux sociaux ===== */
+
+.btn-airbnb,
+.btn-facebook,
+.btn-insta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  color: white;
+  text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+  font-size: .82rem;
+  font-weight: 500;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  transition: all .25s ease;
+}
+
+.btn-airbnb {
+  background: #FF5A5F;
+}
+
+.btn-airbnb:hover {
+  background: #e74c52;
+  transform: translateY(-2px);
+}
+
+.btn-facebook {
+  background: #1877F2;
+}
+
+.btn-facebook:hover {
+  background: #166FE5;
+  transform: translateY(-2px);
+}
+
+.btn-insta {
+  background: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+  );
+}
+
+.btn-insta:hover {
+  transform: translateY(-2px);
+}
+
+.btn-airbnb i,
+.btn-facebook i,
+.btn-insta i {
+  font-size: 18px;
+}
