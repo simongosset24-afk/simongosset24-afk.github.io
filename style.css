@@ -112,7 +112,7 @@ body {
   inset: 0;
   background:
     linear-gradient(158deg, rgba(12,26,17,.72) 0%, rgba(22,45,34,.55) 45%, rgba(15,32,25,.68) 100%),
-    url('/Playa-Negra.webp') center / cover no-repeat;
+    url('/FACADE.WEBP') center / cover no-repeat;
 }
 .hero-orb {
   position: absolute;
@@ -920,7 +920,7 @@ body {
   color: #fff;
   background:
     linear-gradient(rgba(12, 35, 25, 0.45), rgba(12, 35, 25, 0.55)),
-    url("FACADE.JPG") center/cover no-repeat;
+    url('/FACADE.WEBP') center/cover no-repeat;
   font-family: 'DM Sans', sans-serif;
 }
 
