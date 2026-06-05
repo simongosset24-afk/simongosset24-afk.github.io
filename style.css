@@ -911,3 +911,158 @@ body {
   margin: 0 auto;
   display: block;
 }
+
+-Nouveau format page accueil/
+
+.hero-calypso {
+  min-height: 100vh;
+  position: relative;
+  color: #fff;
+  background:
+    linear-gradient(rgba(12, 35, 25, 0.45), rgba(12, 35, 25, 0.55)),
+    url("FACADE.JPG") center/cover no-repeat;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.hero-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 32px 6vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.brand-title {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  letter-spacing: .04em;
+}
+
+.brand-subtitle {
+  margin-top: 6px;
+  font-size: .72rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #e8d6b8;
+}
+
+.nav-links,
+.social-links {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.nav-links a,
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: .78rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.social-links a {
+  opacity: .85;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+  padding: 28vh 6vw 0;
+}
+
+.hero-content h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(4rem, 8vw, 7.5rem);
+  font-weight: 400;
+  line-height: .95;
+  margin: 0 0 24px;
+}
+
+.tagline {
+  font-size: 1.05rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.hero-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 26px;
+  margin-bottom: 42px;
+}
+
+.hero-features span {
+  font-size: .82rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255,255,255,.45);
+  padding-bottom: 8px;
+}
+
+.btn-main {
+  display: inline-block;
+  padding: 18px 34px;
+  border-radius: 4px;
+  background: #c96f48;
+  color: #fff;
+  text-decoration: none;
+  font-size: .85rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  transition: all .25s ease;
+}
+
+.btn-main:hover {
+  background: #b85f3d;
+  transform: translateY(-2px);
+}
+
+.whatsapp-line {
+  display: block;
+  margin-top: 28px;
+  color: #fff;
+  text-decoration: none;
+  font-size: .82rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.whatsapp-floating {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  z-index: 10;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+@media (max-width: 900px) {
+  .hero-nav {
+    flex-direction: column;
+    gap: 18px;
+    align-items: flex-start;
+  }
+
+  .nav-links,
+  .social-links {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .hero-content {
+    padding-top: 32vh;
+  }
+}
