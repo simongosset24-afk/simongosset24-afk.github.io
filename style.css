@@ -257,7 +257,7 @@ body {
 }
 
 .features-logo {
-  width: 110px;
+  width: 55px;
   height: auto;
   opacity: 0.45;
 }
@@ -842,7 +842,7 @@ body {
   .hero-calypso {
     min-height: 100svh;
   }
-  
+
 .features-header-row {
   flex-direction: column;
 }
