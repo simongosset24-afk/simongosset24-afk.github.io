@@ -394,26 +394,27 @@ body {
    min-height: 200px;
 }
 
-.g-inner {
-  position: absolute;
-  inset: 0;
-  min-height: 100%;
-  background-position: center 30%;
-  background-position: center;
-  background-repeat: no-repeat;
+.g-cell {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: #0E2018;
+}
+
+.gal-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #0E2018;
+  display: block;
   transition: transform .65s cubic-bezier(.16,1,.3,1);
 }
 
-.g-cell:hover .g-inner {
-  transform: scale(1.06);
+.g-cell:hover .gal-img {
+  transform: scale(1.02);
 }
-
-.g1 .g-inner { background: linear-gradient(150deg, #2E6B47 0%, #1A4530 100%); }
-.g2 .g-inner { background: linear-gradient(150deg, #5A9BAE 0%, #2D6B88 100%); }
-.g3 .g-inner { background: linear-gradient(150deg, #C97A58 0%, #8B4A2E 100%); }
-.g4 .g-inner { background: linear-gradient(150deg, #1E3A28 0%, #0E2018 100%); }
-.g5 .g-inner { background: linear-gradient(150deg, #8B7060 0%, #5E4840 100%); }
-.g6 .g-inner { background: linear-gradient(150deg, #2E6B47 0%, #1A4530 100%); }
 
 .g-over {
   position: absolute;
@@ -430,6 +431,62 @@ body {
   text-transform: uppercase;
   color: rgba(255,255,255,.65);
   z-index: 2;
+}
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.88);
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox.open {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 88vh;
+  object-fit: contain;
+}
+
+.lightbox-close,
+.lightbox-prev,
+.lightbox-next {
+  position: absolute;
+  background: rgba(255,255,255,.12);
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.lightbox-close {
+  top: 24px;
+  right: 28px;
+  font-size: 42px;
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+}
+
+.lightbox-prev,
+.lightbox-next {
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 62px;
+  width: 64px;
+  height: 84px;
+}
+
+.lightbox-prev {
+  left: 28px;
+}
+
+.lightbox-next {
+  right: 28px;
 }
 
 /* ── ABOUT ─────────────────────────────────── */
