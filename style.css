@@ -257,9 +257,9 @@ body {
 }
 
 .features-logo {
-  width: 100px;
+  width: 110px;
   height: auto;
-  opacity: 0.45;
+  opacity: 1;
 }
 .features-grid {
   display: grid;
