@@ -406,11 +406,11 @@ body {
 .gal-img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  background: #0E2018;
+  object-fit: cover;
   display: block;
   transition: transform .65s cubic-bezier(.16,1,.3,1);
 }
+
 
 .g-cell:hover .gal-img {
   transform: scale(1.02);
@@ -1004,6 +1004,11 @@ body {
     height: 200px;
   }
 
+  .g6 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    height: 200px;
+  }
   .book-ctas {
     flex-direction: column;
     align-items: center;
