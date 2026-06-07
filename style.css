@@ -40,7 +40,7 @@ body {
     url("/FACADE.JPG") center / cover no-repeat;
   font-family: 'DM Sans', sans-serif;
   overflow: hidden;
-  filter: brightness(1.10);
+  filter: brightness(1.00);
 }
 
 .hero-nav {
