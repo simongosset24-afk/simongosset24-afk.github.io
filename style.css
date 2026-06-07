@@ -249,7 +249,18 @@ body {
   max-width: 1200px;
   margin: 0 auto 5rem;
 }
+.features-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
 
+.features-logo {
+  width: 110px;
+  height: auto;
+  opacity: 0.45;
+}
 .features-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -831,7 +842,15 @@ body {
   .hero-calypso {
     min-height: 100svh;
   }
+  
+.features-header-row {
+  flex-direction: column;
+}
 
+.features-logo {
+  width: 80px;
+  margin-top: 1rem;
+}
   .hero-nav {
     position: relative;
     flex-direction: column;
