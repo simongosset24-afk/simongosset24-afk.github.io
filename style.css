@@ -205,6 +205,47 @@ body {
   font-weight: 600;
   box-shadow: 0 10px 30px rgba(0,0,0,.25);
 }
+.hero-contact-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  background: rgba(250,247,241,0.96);
+  backdrop-filter: blur(8px);
+
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+
+  padding: 1rem 2rem;
+  z-index: 20;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-item i {
+  font-size: 18px;
+  color: var(--jungle);
+}
+
+.contact-label {
+  display: block;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #888;
+}
+
+.contact-value {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--jungle);
+}
 
 /* ── REVEAL ANIMATIONS ─────────────────────── */
 
