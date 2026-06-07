@@ -385,27 +385,6 @@ body {
   transition: transform .65s cubic-bezier(.16,1,.3,1);
 }
 
-.g1 .g-inner {
-  background-image: url("/FACADE.JPG");
-}
-
-.g2 .g-inner {
-  background-image: url("/FACADE.JPG");
-}
-
-.g3 .g-inner {
-  background-image: url("/FACADE.JPG");
-}
-
-.g4 .g-inner {
-  background-image: url("/FACADE.JPG");
-}
-
-.g5 .g-inner {
-  background-image: url("/FACADE.JPG");
-}
-
-
 .g-cell:hover .g-inner {
   transform: scale(1.06);
 }
