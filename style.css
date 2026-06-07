@@ -413,6 +413,7 @@ body {
 .g3 .g-inner { background: linear-gradient(150deg, #C97A58 0%, #8B4A2E 100%); }
 .g4 .g-inner { background: linear-gradient(150deg, #1E3A28 0%, #0E2018 100%); }
 .g5 .g-inner { background: linear-gradient(150deg, #8B7060 0%, #5E4840 100%); }
+.g6 .g-inner { background: linear-gradient(150deg, #2E6B47 0%, #1A4530 100%); }
 
 .g-over {
   position: absolute;
