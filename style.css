@@ -261,7 +261,7 @@ body {
   height: auto;
   opacity: 1;
   margin-left: auto;
-  transform: translateX(40px);
+  transform: translateX(20px);
 }
 
 .features-grid {
