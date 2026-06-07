@@ -82,11 +82,15 @@ body {
 
 .nav-links a,
 .social-links a {
-  color: rgba(255,255,255,.86);
+  color: rgba(255,255,255,.92);
   text-decoration: none;
-  font-size: .74rem;
-  letter-spacing: .14em;
+
+  font-size: .88rem;
+  font-weight: 600;
+
+  letter-spacing: .10em;
   text-transform: uppercase;
+
   transition: color .25s ease, opacity .25s ease;
 }
 
