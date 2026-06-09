@@ -40,7 +40,8 @@ const galleryImages = [
   "/galerie-terasse-ext.jpg",
   "/galerie-cuisine.jpg", 
   "/galerie-terasse.jpg", 
-  "/galerie-salon.jpg"
+  "/galerie-salon.jpg",
+  "/galerie-jardin.jpg",
 ];
 
 const lightbox = document.getElementById("lightbox");
