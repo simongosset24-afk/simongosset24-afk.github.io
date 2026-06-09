@@ -98,26 +98,25 @@ body {
 }
 
 .nav-links a,
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
 .social-links a {
-  color: rgba(255,255,255,.92);
+  color: rgba(255,255,255,.95);
   text-decoration: none;
-
-  font-size: .88rem;
-  font-weight: 600;
-
-  letter-spacing: .10em;
-  text-transform: uppercase;
-
-  transition: color .25s ease, opacity .25s ease;
+  transition: all .25s ease;
 }
 
-.nav-links a:hover,
+.social-links i {
+  font-size: 18px;
+}
+
 .social-links a:hover {
-  color: var(--sand);
-}
-
-.social-links a {
-  opacity: .90;
+  opacity: 0.7;
+  transform: translateY(-2px);
 }
 
 .hero-content {
