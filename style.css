@@ -146,18 +146,33 @@ body {
 
 .hero-features {
   display: flex;
+  gap: 3rem;
   flex-wrap: wrap;
-  gap: 14px 26px;
-  margin-bottom: 42px;
+  margin-bottom: 3rem;
 }
 
 .hero-features span {
-  font-size: .76rem;
-  letter-spacing: .13em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  border: none;
+  padding: 0;
+
+  min-width: 90px;
+}
+
+.hero-features i {
+  font-size: 28px;
+  color: rgba(255,255,255,.95);
+}
+
+.hero-features small {
+  font-size: .72rem;
+  letter-spacing: .12em;
   text-transform: uppercase;
-  color: rgba(255,255,255,.78);
-  border-bottom: 1px solid rgba(255,255,255,.38);
-  padding-bottom: 8px;
+  color: rgba(255,255,255,.85);
 }
 
 .btn-main {
