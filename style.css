@@ -45,8 +45,8 @@ body {
   background:
     radial-gradient(
       ellipse at center,
-      rgba(0,0,0,0) 45%,
-      rgba(0,0,0,0.25) 70%,
+      rgba(0,0,0,0) 25%,
+      rgba(0,0,0,0.25) 40%,
       rgba(0,0,0,0.65) 100%
     ),
     url("/FACADE.JPG") center/cover no-repeat;
@@ -115,7 +115,7 @@ body {
 }
 
 .social-links a {
-  opacity: .82;
+  opacity: .90;
 }
 
 .hero-content {
