@@ -983,9 +983,7 @@ body {
   }
 
   .hero-contact-bar {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
+  display :none;
 }
 .features-header-row {
   flex-direction: column;
