@@ -36,7 +36,7 @@
 const galleryImages = [
   "/FACADE.JPG",
   "/galerie-chambre-principale.jpg",
-  "/galerie-seconde-chambre",
+  "/galerie-seconde-chambre.jpg",
   "/galerie-terasse-ext.jpg",
   "/galerie-cuisine.jpg", 
   "/galerie-terasse.jpg", 
