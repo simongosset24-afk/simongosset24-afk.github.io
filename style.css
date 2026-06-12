@@ -97,6 +97,7 @@ body {
   letter-spacing: .08em;
   text-transform: uppercase;
   transition: all .25s ease;
+  gap: 24px;
 }
 
 .nav-links a:hover {
