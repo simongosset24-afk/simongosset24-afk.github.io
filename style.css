@@ -336,11 +336,11 @@ body {
 }
 
 .features-logo {
-  width: 150px;
+  width: 214px;
   height: auto;
   opacity: 1;
   margin-left: auto;
-  transform: translateX(20px);
+  transform: translateX(-42px);
 }
 
 .features-grid {
