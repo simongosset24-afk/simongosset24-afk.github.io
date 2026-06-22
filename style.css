@@ -156,9 +156,10 @@ body {
 
 .hero-features {
   display: flex;
-  gap: 3rem;
-  flex-wrap: wrap;
-  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: clamp(1.5rem, 4vw, 4rem);
 }
 
 .hero-features span {
