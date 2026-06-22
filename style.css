@@ -91,7 +91,7 @@ body {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 70px;
+  gap: 45px;
 }
 .nav-links a {
   color: white;
