@@ -197,6 +197,7 @@ body {
   letter-spacing: .14em;
   text-transform: uppercase;
   transition: all .25s ease;
+  margin-top: 55px;
 }
 
 .btn-main:hover {
